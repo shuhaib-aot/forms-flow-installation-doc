@@ -29,7 +29,7 @@ Before installing formsflow.ai to a Kubernetes cluster there are three prerequis
 
 ----
   
-[Next](/just-the-docs/Pages/Kubernetes/KubernetesQuick.html)
+[Next](/Pages/Kubernetes/KubernetesQuick.html)
 {: .btn .float-right }  
 
  *Copyright© [formsflow.ai](https://formsflow.ai/)*   

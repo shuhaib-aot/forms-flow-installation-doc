@@ -37,7 +37,7 @@ Folder structure will look like below:
 - [Camunda](https://camunda.com/) (included under ../.forms-flow-bpm).
 - [Redash](https://redash.io/) (included under ../.forms-flow-analytics).
 - [Python](https://www.python.org/) (included under ../.forms-flow-api).
-- Optional: nginx (included under ./deployment/nginx)  
+- Optional: nginx (included under ./deployment/nginx).  
 
 ## Formsflow-ai user credentials  
 

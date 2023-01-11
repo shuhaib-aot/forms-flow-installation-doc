@@ -3,19 +3,11 @@ layout: default
 title: Quick Installation
 nav_order: 1
 parent : Docker based installation
-has_children: true
-has_toc: true
+# has_children: true
 
 ---
 
 ## Quick installation 
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 
@@ -38,7 +30,7 @@ The quick-installation option saves time and labour, and is less error prone tha
    
  ![clone](../../assets/QuickDocker/clone.png)
  {: .mt-6 .ml-6}
- *b*.Create a new folder or open any folder on your machine, open the command prompt for the folder and clone this repository to the folder    using the command `git clone <repo name> `  
+ *b*.Create a new folder or open any folder on your machine, open the command prompt for the folder and clone this repository to the folder    using the command `git clone <repo name> `.  
  {: .ml-5}
 
     
@@ -103,14 +95,14 @@ The quick-installation option saves time and labour, and is less error prone tha
 - FormIO should be up and available for use at port defaulted to 3001 i.e. [http://localhost:3001/](http://localhost:3001/).
 - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/). 
-- Default user credentials are provided  <a href="/Pages/Download%20and%20install/Download.html#formsflow-ai-user-credentials">here</a>.
+- Default user credentials are provided  <a href="/Pages/Download_and_install/Download.html#formsflow-ai-user-credentials">here</a>.
 
 
 ---
 
 
 
- [Next](/just-the-docs/Pages/Docker%20Based/DockerFull.html){: .btn .float-right }
+ [Next](/Pages/Docker_Based/DockerFull.html){: .btn .float-right }
 
 
   *Copyright© [formsflow.ai](https://formsflow.ai/)*   
