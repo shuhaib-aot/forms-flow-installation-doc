@@ -15,7 +15,7 @@ nav_order: 6
  
 ### Prerequisites
 
-1. kubectl – A command line tool for working with Kubernetes clusters. For more information, see [Installing or updating kubectl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
+1. kubectl – A command line tool for working with Kubernetes clusters. For more information, see [Installing or updating kubectl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html).
 
 2. eksctl - A command line tool for working with EKS clusters that automates many individual tasks. For more information, see [Installing or updating eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html).
 
@@ -28,7 +28,7 @@ nav_order: 6
 This guide helps you to create all of the required resources to get started with Amazon Elastic
 Kubernetes Service (Amazon EKS) using eksctl, a simple command line utility for creating and
 managing Kubernetes clusters on Amazon EKS. At the end of this tutorial, you will have a running
-Amazon EKS cluster that you can deploy applications to
+Amazon EKS cluster that you can deploy applications .
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ kubectl get nodes -o wide
 
 ### Step 3: Install Nginx Ingress Controller in EKS using Helm.
 
-Add the nginx ingress helm repo in Kubernetes kops cluster, follow this Nginx ingress official page to install [latest nginx ingress helm chart](https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/)
+Add the nginx ingress helm repo in Kubernetes kops cluster, follow this Nginx ingress official page to install [latest nginx ingress helm chart](https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/).
 
 ```
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
@@ -91,7 +91,7 @@ kubectl get services ingress-nginx-controller
 ```
 ### Step 4: Pointing Ingress Loadbalancer in Domain Name Provider to access the App using Domain Name.
 
-To access your application/domain name using browser you can either access using Loadbalancer URL or you can point Loadbalancer URL by adding A record in Domain Provider. you can get the ip of the Loadbalancer URL using nslookup command
+To access your application/domain name using browser you can either access using Loadbalancer URL or you can point Loadbalancer URL by adding A record in Domain Provider. you can get the ip of the Loadbalancer URL using nslookup command.
 
 ```
 nslookup <Loadbalancer URL>
@@ -99,7 +99,7 @@ nslookup <Loadbalancer URL>
 ```
 ### Step 5: Configure Cert manager for Nginx Ingress.
 
-once nginx ingress controller setup is done on your Kubernetes cluster, Lets install and configure cert manager using below kubectl command for Kubernetes version 1.16+
+once nginx ingress controller setup is done on your Kubernetes cluster, Lets install and configure cert manager using below kubectl command for Kubernetes version 1.16+ .
 
 ```
 kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v1.0.1/cert-manager.yaml
@@ -189,13 +189,13 @@ which means we have to perform step 6 and step 7 for the charts.
 ```
 ### Step 8: Installing ebs-csi driver
 
-Add the aws-ebs-csi-driver Helm repository
+Add the aws-ebs-csi-driver Helm repository.
 
 ```
 helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver
 helm repo update
 ```
-Then install a release of the driver using the chart
+Then install a release of the driver using the chart.
 
 ```
 helm upgrade --install aws-ebs-csi-driver \
@@ -205,7 +205,7 @@ helm upgrade --install aws-ebs-csi-driver \
 
 ### Step 9: Starting with forms-flow components
 
-Clone Forms-flow repository from the following command
+Clone Forms-flow repository from the following command.
 ```
 git clone https://github.com/AOT-Technologies/forms-flow-ai-charts.git -b kubernetes-eks-oc-beta-1
 

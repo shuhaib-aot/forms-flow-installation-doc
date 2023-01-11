@@ -1,5 +1,5 @@
 title: formsflow.ai
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: formsflow.ai installation document
 theme: just-the-docs
 
 url: https://aot-technologies.github.io/forms-flow-installation-doc
@@ -10,22 +10,13 @@ logo: "./assets/logo.svg"
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "./assets/logo.svg"
 
-# aux_links: # remove if you don't want this link to appear on your pages
-#   Template Repository: https://github.com/AOT-Technologies/forms-flow-installation-doc
-
-  # Enable or disable the site search
-# Supports true (default) or false
-# search_enabled: false
 
 # Aux links for the upper right navigation
 # aux_links:
 #   "Docker":
 #     - "https://github.com/AOT-Technologies/forms-flow-installation-doc"
 
-# color_scheme: dark
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
 
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
+
+
+
