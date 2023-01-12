@@ -131,7 +131,10 @@ helm uninstall forms-flow-documents-api -n $NAMESPACE
 
 
 --- 
-[Prev](/Pages/Kubernetes/KubernetesQuick.html){: .btn .float-left }
+
+[Prev](/forms-flow-installation-doc/Pages/Kubernetes/KubernetesQuick.html){: .btn .float-left }
+
+
 
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   
 {: .text-center .mt-8 .pt-8}
