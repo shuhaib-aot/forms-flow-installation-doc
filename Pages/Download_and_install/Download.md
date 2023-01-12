@@ -22,8 +22,7 @@ In the following document, we’ll describe the different project dependencies a
 
 ## Download formsflow.ai
  To download and set up, follow the installation guide, where you will find step-by-step instructions to download and install.  
- Clone this github repo: [https://github.com/AOT-Technologies/forms-flow-ai](https://github.com/AOT-Technologies/forms-flow-ai)
-.
+ Clone this github repo: [https://github.com/AOT-Technologies/forms-flow-ai](https://github.com/AOT-Technologies/forms-flow-ai).
 
 
 
@@ -41,7 +40,6 @@ Folder structure will look like below:
 
 ## Formsflow-ai user credentials  
 
---- 
 
 Default User credentials are generated when keycloak started for the first time, you can modify the values on your keycloak service.   
 
@@ -56,7 +54,7 @@ Default User credentials are generated when keycloak started for the first time,
 
 
 > NOTE: All the default configurations are imported to keycloak during the startup, so no manual changes are required at this stage. Redirect uri's are configured as localhost in the default setup, you can configure the ip address (if required) as the redirect uri for the clients by logging into Keycloak.
-{: .fw-700 .ml-5   } 
+{: .fw-700    } 
 
 ---
 

@@ -10,7 +10,7 @@ grand_parent: Docker based installation
 ## formsflow.ai EXPORT API
 --- 
 
-The goal of the document API is to provide generate pdf with form submission data. It is built using Python :snake: .
+The goal of the document API is to provide generate pdf with form submission data. It is built using Python.
 
 ### Prerequisites
 - For docker based installation [Docker](https://www.docker.com/) need to be installed.
@@ -31,7 +31,7 @@ No specific client creation is required. Audience has been added for clients **f
 - Make sure you have a Docker machine up and running.
 - Make sure your current working directory is "forms-flow-ai/forms-flow-documents".
 - Rename the file **sample.env** to **.env**.
-- Modify the environment variables in the newly created **.env** file if needed. Environment variables are given in the table below,
+- Modify the environment variables in the newly created **.env** file if needed. Environment variables are given in the table below.
 - **NOTE : {your-ip-address} given inside the .env file should be changed to your host system IP address. Please take special care to identify the correct IP address if your system has multiple network cards**  
 
 ![documents](../../../assets/setup/documents1.png)

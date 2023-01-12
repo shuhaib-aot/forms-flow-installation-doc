@@ -34,7 +34,7 @@ It's recommended to download dev-packages to follow Python coding standards for 
 - Modify the environment variables in the newly created .env file if needed. Environment variables are given below.   
 ![API](../../../assets/setup/API1.png)
 ![API](../../../assets/setup/API2.png)  
-
+{: .ml-5}
 `INSIGHT_API_URL*` , `INSIGHT_API_KEY*` ,`KEYCLOAK_URL*`, `CAMUNDA_API_URL*`,`FORMSFLOW_API_URL`*  
 
 > NOTE : Default realm is `forms-flow-ai`

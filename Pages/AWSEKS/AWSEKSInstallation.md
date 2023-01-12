@@ -21,7 +21,7 @@ nav_order: 6
 
 3. AWS CLI - A command line tool for working with AWS services, including Amazon EKS. For more information, see [Installing, updating, and uninstalling the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) in the AWS Command Line Interface User Guide. After installing the AWS CLI, we recommend that you also configure it. For more information, see [Quick configuration with aws configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-config) in the AWS Command Line Interface User Guide.
 
-4. Helm - helps to manage Kubernetes applications, For more information see [Installing and updating the Helm](https://helm.sh/docs/intro/install)
+4. Helm - helps to manage Kubernetes applications, For more information see [Installing and updating the Helm](https://helm.sh/docs/intro/install).
 
 ## Starting With EKS (eksctl)
 
@@ -244,3 +244,7 @@ helm upgrade --install forms-flow-documents-api forms-flow-documents-api --set D
 helm upgrade --install forms-flow-web forms-flow-web --set Domain=aot-technologies.com --set ingress.annotations."cert-manager\.io/cluster-issuer"="forms-flow-web"
 ```
 
+----
+
+*Copyright© [formsflow.ai](https://formsflow.ai/)*   
+{: .text-center .mt-8 .pt-8}

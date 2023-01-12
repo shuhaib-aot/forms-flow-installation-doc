@@ -18,7 +18,8 @@ Also **formsflow.ai** provides a Vue.js based web user interface for easy integr
 
 ### Prerequisites
 - For docker based installation [Docker](https://www.docker.com/) need to be installed.
-- Admin access to a [Keycloak](https://www.keycloak.org/) server. For local development / testing follow Keycloak installation.
+- Admin access to a [Keycloak](https://www.keycloak.org/) server. For local development / testing follow 
+[Keycloak installation](/forms-flow-installation-doc/Pages/Docker_Based/SetUp/KeycloakSetup.html).
 - Please make sure the Formio server is up and running.
 ### Installation
 - Make sure you have a Docker machine up and running.
@@ -28,6 +29,7 @@ Also **formsflow.ai** provides a Vue.js based web user interface for easy integr
 
 ![web](../../../assets/setup/web1.png)
 ![web](../../../assets/setup/web2.png)
+{: .ml-5}
   
 
 >NOTE : FORMIO_DEFAULT_PROJECT_URL* ,FORMSFLOW_API_URL* ,CAMUNDA_API_URL*, KEYCLOAK_URL*
@@ -46,7 +48,7 @@ Also **formsflow.ai** provides a Vue.js based web user interface for easy integr
 
 
 ## Health Check
-- The application should be up and available for use at port defaulted to 3000 in [http://localhost:3000/](http://localhost:3000/)
+- The application should be up and available for use at port defaulted to 3000 in [http://localhost:3000/](http://localhost:3000/).
 - Default user credentials are provided <a href="https://aot-technologies.github.io/forms-flow-ai-doc/default%20user%20credential.html"  target="_blank" > here</a> .  
 
 
