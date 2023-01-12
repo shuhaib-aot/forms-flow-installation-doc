@@ -20,7 +20,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 ## Steps for formsflow.ai Installation  
 
-1.To start the formsflow.ai quick installation process, open the GitHub repository [https://github.com/AOT-Technologies/forms-flow-ai-deployment](https://github.com/AOT-Technologies/forms-flow-ai-deployment) .  
+1.To start the formsflow.ai quick installation process, open the GitHub repository [https://github.com/AOT-Technologies/forms-flow-ai-deployment](https://github.com/AOT-Technologies/forms-flow-ai-deployment).  
   
 2.Clone the repository and copy this folder's contents to any local folder in your system. The steps to clone the folder:  
   
@@ -63,8 +63,9 @@ The quick-installation option saves time and labour, and is less error prone tha
   *b*. Verify the IP address is valid or incorrect after that. If true, provide  'y' as the answer, or else answer ‘n’.    
   {: .ml-5}
  ![installqstn3](../../assets/QuickDocker/installqstn2.png)  
-  {: .mt-6 .ml-6}  
+  {: .mt-6 .ml-6}    
  *c*. Provide the proper ip address.
+ {: .ml-5}
 
 5.As part of the installation, if the user has chosen the option to install with “Analytics” the user is asked to enter the Redash API key after the successful installation of Redash.  
 
@@ -96,7 +97,6 @@ The quick-installation option saves time and labour, and is less error prone tha
 - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/). 
 - Default user credentials are provided  <a href="/forms-flow-installation-doc/Pages/Download_and_install/Download.html#formsflow-ai-user-credentials">here</a>.
-
 
 
 

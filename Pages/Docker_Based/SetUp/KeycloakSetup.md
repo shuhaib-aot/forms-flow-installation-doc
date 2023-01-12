@@ -20,34 +20,37 @@ This setup is preferred for local development only. A docker instance will be cr
 - Make sure your current working directory is cd {Your Directory}/forms-flow-ai/forms-flow-idm/keycloak
   * Optional: Rename the file sample.env to .env. Skip this step if you want to use the default values as mentioned in the table below.  
 
-### Environment Variables  
+### Environment Variables    
 
- ---
 
- ![keycloak 1](../../../assets/setup/keycloak1.png)  
+ ![keycloak 1](../../../assets/setup/keycloak1.png) 
+ {: .mt-5 .ml-5} 
 
 ### To start the keycloak server  
 
  - Run `docker-compose up -d` to start.  
 
- ![keycloak 2](../../../assets/setup/keycloak2.png)  
+ ![keycloak 2](../../../assets/setup/keycloak2.png)
+ {: .ml-5}  
 
  >  Use --build command with the start command to reflect any future changes  
  > `eg : docker-compose up --build -d`
  {: .bg-grey-lt-000}  
 
 
-### To stop the keycloak server  
+#### To stop the keycloak server  
 
 - Run `docker-compose stop `to stop.  
 
- ![keycloak 3](../../../assets/setup/keycloak3.png)  
+ ![keycloak 3](../../../assets/setup/keycloak3.png)
+ {: .ml-5}    
 
 ### Health Check    
 \
  The application should be up and available for use in [http://localhost:8080](http://localhost:8080/)   
 \
-  ![keycloak 4](../../../assets/setup/keycloak4.png)  
+  ![keycloak 4](../../../assets/setup/keycloak4.png)
+  {: .ml-5}    
 
       Login Credentials
       -----------------

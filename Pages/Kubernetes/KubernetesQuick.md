@@ -43,7 +43,7 @@ __Install Script__
  ![quick kubernetes 3](../../assets/QuickKubernetes/kube_quick_uninstall.gif)
  {: .ml-5}
 
- >*Note: Persistent Volume Claims must be manually deleted from your Kubernetes project*
+ >*Note: Persistent Volume Claims must be manually deleted from your Kubernetes project*.
 
  ![quick kubernetes 3](../../assets/QuickKubernetes/kube_persist.gif)
  {: .ml-5}
@@ -52,7 +52,6 @@ __Install Script__
 
  [Prev](/forms-flow-installation-doc/Pages/Kubernetes/Overview.html){: .btn .float-left }
  [Next](/forms-flow-installation-doc/Pages/Kubernetes/KubernetesIndividual.html){: .btn .float-right }
-
 
 
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   

@@ -17,7 +17,7 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 
 - For docker based installation [Docker](https://www.docker.com/) need to be installed.  
 
-#### Installation  
+###+ Installation  
 
 - Make sure you have a Docker machine up and running.
 - Make sure your current working directory is "forms-flow-ai/forms-flow-forms".
@@ -27,13 +27,14 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 **NOTE :{your-ip-address} given inside the .env file should be changed to your host system IP address. Please take special care to identify the correct IP address if your system has multiple network cards.**  
 
 ![forms-flow-forms](../../../assets/setup/forms1.png)    
+{: .ml-5}  
 
 > `FORMIO_DEFAULT_PROJECT_URL *`
 {: .bg-grey-lt-000 .mt-8 .p-3}  
 
 **Additionally, you may want to change these**{: .text-grey-dk-000 }
-- The value of Mongo database details (especially if this instance is not just for testing purposes)
-- The value of ROOT user account details (especially if this instance is not just for testing purposes)  
+- The value of Mongo database details (especially if this instance is not just for testing purposes).
+- The value of ROOT user account details (especially if this instance is not just for testing purposes).  
 
 ### Running the application
 - forms-flow-forms service uses port 3001, make sure the port is available.
@@ -41,7 +42,8 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 
 - Run `docker-compose up -d to start`  
 
-![forms-flow-forms](../../../assets/setup/forms2.png)  
+![forms-flow-forms](../../../assets/setup/forms2.png)
+{: .ml-5}    
  
 > *NOTE: Use --build command with the start command to reflect any future **.env** changes eg : `docker-compose up --build -d`*
 {: .bg-grey-lt-000 .mt-8 .p-3}  
@@ -51,14 +53,15 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 - Run `docker-compose stop` to stop.
 
 ## Health Check
-The application should be up and available for use at port defaulted to 3001 in (i.e. [http://localhost:3001/](http://localhost:3001/))
+The application should be up and available for use at port defaulted to 3001 in (i.e. [http://localhost:3001/](http://localhost:3001/)).
 
-![forms-flow-forms](../../../assets/setup/forms3.png)    
+![forms-flow-forms](../../../assets/setup/forms3.png)
+{: .ml-5}      
 
     Default Login Credentials
-            -----------------
-            User Name / Email : admin@example.com
-            Password  : changeme
+    -----------------
+    User Name / Email : admin@example.com
+    Password  : changeme
 
 
   --- 

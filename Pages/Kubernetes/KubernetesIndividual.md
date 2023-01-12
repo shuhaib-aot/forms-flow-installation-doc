@@ -46,7 +46,7 @@ Each service can be installed, updated, and uninstalled individually. To install
  helm install [RELEASE_NAME] formsflow/[COMPONENT_NAME] [flags]
  {: .text-grey-lt-000 .bg-grey-dk-250 .p-6 .ml-3}  
 
- *See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation* 
+ *See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation*. 
 
  helm install forms-flow-ai formsflow/forms-flow-ai \
  --set Domain=$DOMAIN_NAME \ 
@@ -87,8 +87,7 @@ Each service can be installed, updated, and uninstalled individually. To install
 \
  helm install forms-flow-documents-api formsflow/forms-flow-documents-api \
  --set Domain=$DOMAIN_NAME \
- --namespace $NAMESPACE   
-\                   
+ --namespace $NAMESPACE  
  helm install forms-flow-web formsflow/forms-flow-web \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE

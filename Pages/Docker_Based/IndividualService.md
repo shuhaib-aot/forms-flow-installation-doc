@@ -4,12 +4,13 @@ title: Individual Service Deployment
 nav_order: 3
 parent : Docker based installation
 has_children: true
-
+has_toc: false
 ---
 
 ## Individual Service Deployment
-\
-\
+{: .mb-5}   
+   
+
 The components can be installed individually in the order below .   
 \
 **Note** : Keycloak, form.io and analytics(optional) should be installed before bpm,api & web.
@@ -25,16 +26,13 @@ The components can be installed individually in the order below .
 
 
 
-
 Installation is successfully completed now.
 
 -------
 
 
 
-
  [Prev](/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html){: .btn .float-left }  
-
 
 
   
